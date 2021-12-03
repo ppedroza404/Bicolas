@@ -139,7 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Bicola.cpp" />
     <ClCompile Include="Bicolas.cpp" />
+    <ClCompile Include="NodoD.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bicola.h" />
+    <ClInclude Include="NodoD.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
